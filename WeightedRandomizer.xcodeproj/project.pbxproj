@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D349C2612537B59C00AA4172 /* WeightedRandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349C2602537B59C00AA4172 /* WeightedRandomizerApp.swift */; };
+		D349C2632537B59C00AA4172 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349C2622537B59C00AA4172 /* ContentView.swift */; };
+		D349C2652537B5CE00AA4172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D349C2642537B5CE00AA4172 /* Assets.xcassets */; };
+		D349C2682537B5CE00AA4172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D349C2672537B5CE00AA4172 /* Preview Assets.xcassets */; };
+		D349C2732537B5D000AA4172 /* WeightedRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349C2722537B5D000AA4172 /* WeightedRandomizerTests.swift */; };
+		D349C27E2537B5D000AA4172 /* WeightedRandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349C27D2537B5D000AA4172 /* WeightedRandomizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D349C26F2537B5D000AA4172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D349C2552537B59B00AA4172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D349C25C2537B59C00AA4172;
+			remoteInfo = WeightedRandomizer;
+		};
+		D349C27A2537B5D000AA4172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D349C2552537B59B00AA4172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D349C25C2537B59C00AA4172;
+			remoteInfo = WeightedRandomizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D349C25D2537B59C00AA4172 /* WeightedRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightedRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D349C2602537B59C00AA4172 /* WeightedRandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedRandomizerApp.swift; sourceTree = "<group>"; };
+		D349C2622537B59C00AA4172 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D349C2642537B5CE00AA4172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D349C2672537B5CE00AA4172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D349C2692537B5CE00AA4172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D349C26E2537B5D000AA4172 /* WeightedRandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightedRandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D349C2722537B5D000AA4172 /* WeightedRandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedRandomizerTests.swift; sourceTree = "<group>"; };
+		D349C2742537B5D000AA4172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D349C2792537B5D000AA4172 /* WeightedRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightedRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D349C27D2537B5D000AA4172 /* WeightedRandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedRandomizerUITests.swift; sourceTree = "<group>"; };
+		D349C27F2537B5D000AA4172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D349C25A2537B59C00AA4172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349C26B2537B5D000AA4172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349C2762537B5D000AA4172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D349C2542537B59B00AA4172 = {
+			isa = PBXGroup;
+			children = (
+				D349C25F2537B59C00AA4172 /* WeightedRandomizer */,
+				D349C2712537B5D000AA4172 /* WeightedRandomizerTests */,
+				D349C27C2537B5D000AA4172 /* WeightedRandomizerUITests */,
+				D349C25E2537B59C00AA4172 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D349C25E2537B59C00AA4172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D349C25D2537B59C00AA4172 /* WeightedRandomizer.app */,
+				D349C26E2537B5D000AA4172 /* WeightedRandomizerTests.xctest */,
+				D349C2792537B5D000AA4172 /* WeightedRandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D349C25F2537B59C00AA4172 /* WeightedRandomizer */ = {
+			isa = PBXGroup;
+			children = (
+				D349C2602537B59C00AA4172 /* WeightedRandomizerApp.swift */,
+				D349C2622537B59C00AA4172 /* ContentView.swift */,
+				D349C2642537B5CE00AA4172 /* Assets.xcassets */,
+				D349C2692537B5CE00AA4172 /* Info.plist */,
+				D349C2662537B5CE00AA4172 /* Preview Content */,
+			);
+			path = WeightedRandomizer;
+			sourceTree = "<group>";
+		};
+		D349C2662537B5CE00AA4172 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D349C2672537B5CE00AA4172 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D349C2712537B5D000AA4172 /* WeightedRandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D349C2722537B5D000AA4172 /* WeightedRandomizerTests.swift */,
+				D349C2742537B5D000AA4172 /* Info.plist */,
+			);
+			path = WeightedRandomizerTests;
+			sourceTree = "<group>";
+		};
+		D349C27C2537B5D000AA4172 /* WeightedRandomizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D349C27D2537B5D000AA4172 /* WeightedRandomizerUITests.swift */,
+				D349C27F2537B5D000AA4172 /* Info.plist */,
+			);
+			path = WeightedRandomizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D349C25C2537B59C00AA4172 /* WeightedRandomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D349C2822537B5D000AA4172 /* Build configuration list for PBXNativeTarget "WeightedRandomizer" */;
+			buildPhases = (
+				D349C2592537B59C00AA4172 /* Sources */,
+				D349C25A2537B59C00AA4172 /* Frameworks */,
+				D349C25B2537B59C00AA4172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightedRandomizer;
+			productName = WeightedRandomizer;
+			productReference = D349C25D2537B59C00AA4172 /* WeightedRandomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D349C26D2537B5D000AA4172 /* WeightedRandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D349C2852537B5D000AA4172 /* Build configuration list for PBXNativeTarget "WeightedRandomizerTests" */;
+			buildPhases = (
+				D349C26A2537B5D000AA4172 /* Sources */,
+				D349C26B2537B5D000AA4172 /* Frameworks */,
+				D349C26C2537B5D000AA4172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D349C2702537B5D000AA4172 /* PBXTargetDependency */,
+			);
+			name = WeightedRandomizerTests;
+			productName = WeightedRandomizerTests;
+			productReference = D349C26E2537B5D000AA4172 /* WeightedRandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D349C2782537B5D000AA4172 /* WeightedRandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D349C2882537B5D000AA4172 /* Build configuration list for PBXNativeTarget "WeightedRandomizerUITests" */;
+			buildPhases = (
+				D349C2752537B5D000AA4172 /* Sources */,
+				D349C2762537B5D000AA4172 /* Frameworks */,
+				D349C2772537B5D000AA4172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D349C27B2537B5D000AA4172 /* PBXTargetDependency */,
+			);
+			name = WeightedRandomizerUITests;
+			productName = WeightedRandomizerUITests;
+			productReference = D349C2792537B5D000AA4172 /* WeightedRandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D349C2552537B59B00AA4172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D349C25C2537B59C00AA4172 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D349C26D2537B5D000AA4172 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D349C25C2537B59C00AA4172;
+					};
+					D349C2782537B5D000AA4172 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D349C25C2537B59C00AA4172;
+					};
+				};
+			};
+			buildConfigurationList = D349C2582537B59B00AA4172 /* Build configuration list for PBXProject "WeightedRandomizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D349C2542537B59B00AA4172;
+			productRefGroup = D349C25E2537B59C00AA4172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D349C25C2537B59C00AA4172 /* WeightedRandomizer */,
+				D349C26D2537B5D000AA4172 /* WeightedRandomizerTests */,
+				D349C2782537B5D000AA4172 /* WeightedRandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D349C25B2537B59C00AA4172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D349C2682537B5CE00AA4172 /* Preview Assets.xcassets in Resources */,
+				D349C2652537B5CE00AA4172 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349C26C2537B5D000AA4172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349C2772537B5D000AA4172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D349C2592537B59C00AA4172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D349C2632537B59C00AA4172 /* ContentView.swift in Sources */,
+				D349C2612537B59C00AA4172 /* WeightedRandomizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349C26A2537B5D000AA4172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D349C2732537B5D000AA4172 /* WeightedRandomizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349C2752537B5D000AA4172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D349C27E2537B5D000AA4172 /* WeightedRandomizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D349C2702537B5D000AA4172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D349C25C2537B59C00AA4172 /* WeightedRandomizer */;
+			targetProxy = D349C26F2537B5D000AA4172 /* PBXContainerItemProxy */;
+		};
+		D349C27B2537B5D000AA4172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D349C25C2537B59C00AA4172 /* WeightedRandomizer */;
+			targetProxy = D349C27A2537B5D000AA4172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D349C2802537B5D000AA4172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D349C2812537B5D000AA4172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D349C2832537B5D000AA4172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeightedRandomizer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeightedRandomizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wokebois.WeightedRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D349C2842537B5D000AA4172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeightedRandomizer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeightedRandomizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wokebois.WeightedRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D349C2862537B5D000AA4172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightedRandomizerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wokebois.WeightedRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightedRandomizer.app/WeightedRandomizer";
+			};
+			name = Debug;
+		};
+		D349C2872537B5D000AA4172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightedRandomizerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wokebois.WeightedRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightedRandomizer.app/WeightedRandomizer";
+			};
+			name = Release;
+		};
+		D349C2892537B5D000AA4172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightedRandomizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wokebois.WeightedRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeightedRandomizer;
+			};
+			name = Debug;
+		};
+		D349C28A2537B5D000AA4172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeightedRandomizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wokebois.WeightedRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeightedRandomizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D349C2582537B59B00AA4172 /* Build configuration list for PBXProject "WeightedRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349C2802537B5D000AA4172 /* Debug */,
+				D349C2812537B5D000AA4172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D349C2822537B5D000AA4172 /* Build configuration list for PBXNativeTarget "WeightedRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349C2832537B5D000AA4172 /* Debug */,
+				D349C2842537B5D000AA4172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D349C2852537B5D000AA4172 /* Build configuration list for PBXNativeTarget "WeightedRandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349C2862537B5D000AA4172 /* Debug */,
+				D349C2872537B5D000AA4172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D349C2882537B5D000AA4172 /* Build configuration list for PBXNativeTarget "WeightedRandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349C2892537B5D000AA4172 /* Debug */,
+				D349C28A2537B5D000AA4172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D349C2552537B59B00AA4172 /* Project object */;
+}
