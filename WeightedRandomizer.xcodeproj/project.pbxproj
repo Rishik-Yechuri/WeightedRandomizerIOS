@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F75D8E7255C5FF70059E69F /* GroupFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D8E6255C5FF70059E69F /* GroupFile.swift */; };
 		D349C2612537B59C00AA4172 /* WeightedRandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349C2602537B59C00AA4172 /* WeightedRandomizerApp.swift */; };
 		D349C2632537B59C00AA4172 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349C2622537B59C00AA4172 /* ContentView.swift */; };
 		D349C2652537B5CE00AA4172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D349C2642537B5CE00AA4172 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F75D8E6255C5FF70059E69F /* GroupFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFile.swift; sourceTree = "<group>"; };
 		D349C25D2537B59C00AA4172 /* WeightedRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightedRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D349C2602537B59C00AA4172 /* WeightedRandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedRandomizerApp.swift; sourceTree = "<group>"; };
 		D349C2622537B59C00AA4172 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				D349C2602537B59C00AA4172 /* WeightedRandomizerApp.swift */,
 				D349C2622537B59C00AA4172 /* ContentView.swift */,
+				4F75D8E6255C5FF70059E69F /* GroupFile.swift */,
 				D349C2642537B5CE00AA4172 /* Assets.xcassets */,
 				D349C2692537B5CE00AA4172 /* Info.plist */,
 				D349C2662537B5CE00AA4172 /* Preview Content */,
@@ -209,7 +212,7 @@
 				};
 			};
 			buildConfigurationList = D349C2582537B59B00AA4172 /* Build configuration list for PBXProject "WeightedRandomizer" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D349C2632537B59C00AA4172 /* ContentView.swift in Sources */,
+				4F75D8E7255C5FF70059E69F /* GroupFile.swift in Sources */,
 				D349C2612537B59C00AA4172 /* WeightedRandomizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
