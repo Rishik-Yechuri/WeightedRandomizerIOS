@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GroupFile: View {
     @State var numOfPeople: String = ""
+    @State var infoEnteredCorrect: Bool = false;
     var body: some View {
         //NavigationView{
         VStack(){
@@ -24,6 +25,9 @@ struct GroupFile: View {
                     TextField("Ex:2", text: $numOfPeople)
                         .frame(width: 80.0)
                         .textFieldStyle(RoundedBorderTextFieldStyle ())
+                        .onChange(of: numOfPeople, perform: { value in
+                            
+                        })
                     Spacer ()
                 }
             }

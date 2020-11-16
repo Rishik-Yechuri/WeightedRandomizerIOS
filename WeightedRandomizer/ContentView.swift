@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var fieldCorrect: Bool = false;
+    @State var fieldFilled: Bool = false;
     @State var moveToNextScreen: Bool = false
     @State var numOfGroups: String = ""
     var body: some View {
@@ -17,8 +18,6 @@ struct ContentView: View {
             VStack{
 
             }
-            Spacer()
-            Spacer()
             VStack{
                 Text("# of groups")
                 HStack{
@@ -36,16 +35,20 @@ struct ContentView: View {
                             //Int entered
                                 fieldCorrect = true
                             }
+                            if(numOfGroups != ""){
+                                fieldFilled = true
+                            }else{
+                                fieldFilled = false
+                            }
                         })
                     Spacer ()
                     }
-                }
-            Spacer()
-            Spacer()
-            Spacer()
-        }.navigationBarItems(trailing: NavigationLink(destination: GroupFile(), isActive:$fieldCorrect){Text("Next")}.simultaneousGesture(TapGesture().onEnded{
-                
-            }))
+                Text("Please Enter A Number")
+                    .foregroundColor(.red)
+                    .opacity(!fieldCorrect && fieldFilled ? 1 : 0)
+            }.frame(alignment:.center)
+            Spacer().frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealWidth: .infinity, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealHeight: 50, maxHeight: 75)
+        }.navigationBarItems(trailing: NavigationLink(destination: GroupFile() ){Text("Next")}.disabled(!fieldCorrect))
         }
     }
 }
